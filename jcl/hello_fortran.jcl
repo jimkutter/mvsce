@@ -1,0 +1,10 @@
+//IFORT01 JOB FORTRAN,
+//           'Hello FORTRAN',
+//           MSGLEVEL=(0,0)
+//FORTGO EXEC FORTHCLG,REGION.FORT=2M
+//FORT.SYSIN DD *
+       WRITE(6,10)
+10     FORMAT(12H HELLO WORLD)
+       STOP
+       END
+//
