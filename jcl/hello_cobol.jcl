@@ -14,4 +14,5 @@
        PROCEDURE DIVISION.
            DISPLAY 'HELLO COBOL ON MVS!'.
            STOP RUN. 
+//GO.SYSOUT DD SYSOUT=*
 //
