@@ -2,7 +2,7 @@
 #   current folder as the location for all of it's artifacts
 
 podman run --platform linux/amd64 -d \
-  --name=mvsce \      
+  --name=mvsce \
   -e HUSER=docker \
   -e HPASS=docker \
   -p 2121:21 \

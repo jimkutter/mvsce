@@ -1,7 +1,7 @@
 //ICOBOL01 JOB COBOL,
 //        'Hello World In COBOL',
 //        REGION=8M,
-//        MSGLEVEL=(0,0)
+//        MSGLEVEL=(1,1)
 //COBOL EXEC COBUCLG,CPARM1='LIST,LOAD,NODECK'
 //COB.SYSIN DD *
        IDENTIFICATION DIVISION.
@@ -12,7 +12,9 @@
        OBJECT-COMPUTER. IBM-360.
        DATA DIVISION.
        PROCEDURE DIVISION.
+           DISPLAY '-------------------'.
            DISPLAY 'HELLO COBOL ON MVS!'.
+           DISPLAY '-------------------'.
            STOP RUN. 
 //GO.SYSOUT DD SYSOUT=*
 //
